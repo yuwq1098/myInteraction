@@ -15,7 +15,9 @@
     // 设置根字体大小 
     function setRootFontSize(){
         var html = document.documentElement;
-        var hWidth = html.getBoundingClientRect().width;
+        // console.dir(html.clientWidth)
+        // var hWidth = html.getBoundingClientRect().width;
+        var hWidth = html.clientWidth;
         html.style.fontSize = hWidth/16 + "px";
     }
 
