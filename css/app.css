@@ -377,7 +377,7 @@ body.default{
     background: url("../img/colour-bar01.png") center center no-repeat;
     background-size: contain;
     left: 5.3rem;
-    top: 1.9rem;
+    top: 2.1rem;
 }
 .colour-bar.v2{
     width: 3.4rem;
@@ -393,7 +393,7 @@ body.default{
     background: url("../img/colour-bar03.png") center center no-repeat;
     background-size: contain;
     left: .65rem;
-    top: .8rem;
+    top: 1.5rem;
 }
 .colour-bar.v4{
     width: .95rem;
