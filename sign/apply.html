@@ -17,41 +17,39 @@
     <!--木有车网页描述-->
     <meta name="description" content="木有车汽车服务平台(m.muyouche.com)">
     <title>合作商_申请签约</title>
-    <link href="../css/app.css" rel="stylesheet" type="text/css">
-    <!--调用弹性布局js-->
-    <script src="../js/flexible.js"></script>
+    <link href="../css/newapp.css" rel="stylesheet" type="text/css">
+
+    <!--调用布局适配js-->
+    <script src="../js/adapter.js"></script>
 
   </head>
   <body oncontextmenu="return false" class="user-unselect default">
     
-      <div class="m-apply-box">
-          <div class="m-hd">
-              <img src="../img/b-complete-sign.png"/>
-          </div><!--头部-->
-          <div class="m-con">
-                <ul class="m-info-lst clearfix">
-                    <li class="u-item">
-                        <i class="pic v1"></i>
-                        <p class="txt">免费获得车店二维码，客户扫码查看所有在售店铺</p>
-                    </li>
-                    <li class="u-item">
-                        <i class="pic v2"></i>
-                        <p class="txt">同城（全国）车源共享，介绍客户成功安车家支付佣金</p>
-                    </li>
-                    <li class="u-item">
-                        <i class="pic v3"></i>
-                        <p class="txt">完成交易，返还向平台支付的200元交易费</p>
-                    </li>
-                    <li class="u-item">
-                        <i class="pic v4"></i>
-                        <p class="txt">发展30家合作商，免费成为木有车原始股东</p>
-                    </li>
-                </ul>
-              
-          </div><!--内容-->
-          <div class="m-submit-box">
-              <a class="u-btn" href="https://www.muyouche.com/mo1/?#/user/chrz">申请签约</a>
-          </div><!--提交申请-->
+      <div class="container">
+        <section class="u-banner">
+          <img src="../img/b-banner-sign.png" alt="签约合作商banner"/>
+        </section>
+
+        <section class="u-con">
+            <div class="gp-lst">
+                <section class="txt-item">
+                    <header>签约条件</header>
+                    <p class="tit v1">通过实名认证并且在平台发布5辆车</p>  
+                </section>
+                <section class="txt-item">
+                    <header>合作商四大优势</header>
+                    <ul>
+                      <li>1.免费获得车店二维码，客户扫码查看所有在售车辆信息，收藏店铺；</li>
+                      <li>2.同城（全国）车源共享，介绍客户成功交易后按车价支付佣金；</li>
+                      <li>3.返还因二手车交易向平台支付的200元交易费；</li>
+                      <li>4.优先发展30家合作商，免费成为木有车的原始股东。</li>
+                    </ul>  
+                </section>
+            </div>
+            <section class="btn-wrap">
+                <a class="u-btn" href="https://www.muyouche.com/mo1/?#/user/chrz">申请签约</a>
+            </section>
+        </section>
       </div>
       
     <!-- 引用jq库-->
@@ -59,10 +57,5 @@
     <!-- 移动端click事件延迟修复-->
     <script src="../js/fastclick.js"></script>
       
-    <script charset="utf-8">
-        $(function(){
-//            console.log("终于用回了jquery")
-        })        
-    </script>
   </body>
 </html>

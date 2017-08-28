@@ -1,0 +1,125 @@
+@charset "utf-8";
+/* line 4, newapp.less */
+* {
+  margin: 0;
+  padding: 0;
+}
+/* line 8, newapp.less */
+html * {
+  outline: none;
+  -webkit-text-size-adjust: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+/* line 13, newapp.less */
+a {
+  text-decoration: none;
+}
+/* line 16, newapp.less */
+ul,
+li {
+  list-style: none;
+}
+/* line 20, newapp.less */
+body {
+  background: #f4f4f4;
+  color: #313536;
+  line-height: 1.5;
+  font: 12px "-apple-system-font", "Helvetica Neue", "sans-serif";
+}
+/* line 26, newapp.less */
+.user-unselect {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-unselect: none;
+}
+/* line 33, newapp.less */
+.wrap {
+  width: 16rem;
+  height: 16rem;
+  margin: 0 auto;
+  background: red;
+}
+/* line 40, newapp.less */
+.container {
+  width: 16rem;
+}
+/* line 42, newapp.less */
+.container .u-banner {
+  width: 16rem;
+  height: 10.8rem;
+}
+/* line 45, newapp.less */
+.container .u-banner img {
+  width: 100%;
+  height: 100%;
+}
+/* line 50, newapp.less */
+.container .u-con {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 .8rem;
+}
+/* line 55, newapp.less */
+.container .u-con .gp-lst .txt-item {
+  padding: 0 0 .3rem;
+}
+/* line 57, newapp.less */
+.container .u-con .gp-lst .txt-item header {
+  padding: 0 0 0 .2rem;
+  font-size: 13px;
+  height: 1rem;
+  line-height: 1rem;
+  margin: 0 0 .3rem;
+  font-weight: 700;
+  position: relative;
+}
+/* line 65, newapp.less */
+.container .u-con .gp-lst .txt-item header::before {
+  content: "";
+  dispaly: block;
+  width: .20rem;
+  height: .7rem;
+  background: #0479cc;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -0.15rem;
+  margin: auto;
+}
+/* line 78, newapp.less */
+.container .u-con .gp-lst .txt-item .tit.v1 {
+  height: 1.1rem;
+  line-height: 1.1rem;
+  font-size: 14px;
+}
+/* line 83, newapp.less */
+.container .u-con .gp-lst .txt-item ul li {
+  line-height: 1rem;
+  font-size: 12px;
+}
+/* line 89, newapp.less */
+.container .u-con .btn-wrap {
+  margin: 1.35rem 0;
+  text-align: center;
+}
+/* line 92, newapp.less */
+.container .u-con .btn-wrap .u-btn {
+  display: block;
+  width: 7.2rem;
+  height: 1.6rem;
+  line-height: 1.6rem;
+  text-align: center;
+  background: #990099;
+  margin: auto;
+  color: #f2f2f2;
+  -webkit-border-radius: .2rem;
+  border-radius: .2rem;
+  letter-spacing: .15rem;
+  text-indent: .15rem;
+}
+/* line 105, newapp.less */
+.container .u-con .btn-wrap .u-btn:active {
+  background: #cc1bcc;
+}
+/*# sourceMappingURL=newapp.css.map */

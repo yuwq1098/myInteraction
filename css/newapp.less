@@ -1,0 +1,111 @@
+@rootSize: 1rem;
+
+@charset "utf-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+html * {
+  outline: none;
+  -webkit-text-size-adjust: none;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+a {
+  text-decoration: none;
+}
+ul,
+li {
+  list-style: none;
+}
+body {
+  background: #f4f4f4;
+  color: #313536;
+  line-height: 1.5;
+  font: 12px "-apple-system-font", "Helvetica Neue", "sans-serif";
+}
+.user-unselect {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-unselect: none;
+}
+
+.wrap{
+    width: 16rem;
+    height: 16rem;
+    margin: 0 auto;
+    background: red;
+}
+
+.container{
+   width: 16rem;
+   .u-banner{
+      width: 16rem;
+      height: 10.8rem;
+      img{
+         width: 100%;
+         height: 100%;
+      }
+   }
+   .u-con{
+      width: 100%;
+      box-sizing: border-box;
+      padding: 0 .8rem;
+      .gp-lst{
+         .txt-item{
+            padding: 0 0 .3rem;
+            header{
+               padding: 0 0 0 .2rem;
+               font-size: 13px;
+               height: 1rem;
+               line-height: 1rem;
+               margin: 0 0 .3rem;
+               font-weight: 700;
+               position: relative;
+               &::before{
+                  content: "";
+                  dispaly: block;
+                  width: .20rem;
+                  height: .7rem;
+                  background: #0479cc;
+                  position: absolute;
+                  top: 0;
+                  bottom: 0;
+                  left: -.15rem;
+                  margin: auto;
+               }
+            }
+            .tit.v1{
+               height: 1.1rem;
+               line-height: 1.1rem;
+               font-size: 14px;
+            }
+            ul li{
+               line-height: 1rem;
+               font-size: 12px;
+            }
+         }
+      }
+      .btn-wrap{
+         margin: 1.35rem 0; 
+         text-align: center;
+         .u-btn{
+            display: block;
+            width: 7.2rem;
+            height: 1.6rem;
+            line-height: 1.6rem;
+            text-align: center;
+            background: #990099;
+            margin: auto;
+            color: #f2f2f2;
+            -webkit-border-radius: .2rem;
+            border-radius: .2rem;
+            letter-spacing: .15rem;
+            text-indent: .15rem;
+            &:active{
+               background: #cc1bcc;
+            }
+         }
+      }
+   }
+}
